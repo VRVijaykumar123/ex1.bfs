@@ -14,7 +14,7 @@ To write a logic program to design a circuit like half adder and half subtractor
 8. Stop the program.
 
 ### Program:
-
+```
 % Define the XOR gate
 xor(0, 0, 0).
 xor(0, 1, 1).
@@ -42,7 +42,7 @@ half_adder(A, B, Sum, Carry) :-
     xor(A, B, Sum),
     and(A, B, Carry).
 
-
+```
 
 
 
