@@ -30,6 +30,7 @@
     12.Stop the program.
     
 ### Program:
+```
     #import packages
     import numpy as np
     import pandas as pd
@@ -95,7 +96,7 @@
     outputs = gr.outputs.Textbox()
     app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','number','number','number','number'], outputs=outputs,description="Detection of Diabeties")
     app.launch(share=True)
-
+```
 ### Output:
 ![image](https://github.com/AKASHBKUMAR/AI_Lab_2023-24/assets/113763258/246bfeb9-0039-404a-ad50-1e533322b61f)
 ![image](https://github.com/AKASHBKUMAR/AI_Lab_2023-24/assets/113763258/40ccd967-174a-4e48-ade1-791d8f5ddf63)
